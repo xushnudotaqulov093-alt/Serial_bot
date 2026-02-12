@@ -10,7 +10,7 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import StatesGroup, State
 
 TOKEN = "BOT_TOKENINGNI_BU_YERGA_QO'Y"
-ADMIN_ID = 
+ADMIN_ID = int(os.getenv("ADMIN_ID"))
 
 bot = Bot(TOKEN)
 dp = Dispatcher()
